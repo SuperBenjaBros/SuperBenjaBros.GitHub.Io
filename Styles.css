@@ -1,0 +1,23 @@
+/* Palet Color Vars */
+:root {
+    --White: #f0f8ff;
+    --Main: #f21b46;
+    --Red: #bf0046;
+    --Shadow: #002040;
+    --Black: #000
+}
+
+body {
+    background: linear-gradient(var(--Black), var(--Shadow));
+    color: var(--White);
+    font-family: FirstTimeWriting;
+    height: 100vh
+}
+
+* {
+    text-transform: capitalize;
+    overflow: auto;
+    overflow-wrap: break-word;
+    word-wrap: anywhere;
+    word-break: auto-phrase;
+}
