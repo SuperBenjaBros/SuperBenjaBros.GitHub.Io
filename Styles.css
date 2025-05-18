@@ -14,10 +14,11 @@ body {
     height: 100vh
 }
 
-* {
+p {
     text-transform: capitalize;
     overflow: auto;
     overflow-wrap: break-word;
-    word-wrap: anywhere;
-    word-break: auto-phrase;
+    margin-block: 1em;
+    margin-block: 1lh;
+    text-overflow: ellipsis;
 }
