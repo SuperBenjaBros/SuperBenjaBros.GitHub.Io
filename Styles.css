@@ -15,8 +15,9 @@ body {
     margin: 0
 }
 
-h1 {
+h1, span {
     text-wrap: balance;
+    overflow-wrap: break-word;
 }
 
 p {
@@ -25,6 +26,8 @@ p {
     overflow-wrap: break-word;
     margin-block: 1em;
     margin-block: 1lh;
-    text-overflow: ellipsis;
+    text-wrap: wrap;
     text-wrap: pretty;
+    hyphens: auto;
+    unicode-bidi: isolate;
 }
