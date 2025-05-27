@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(var(--Shadow), var(--Black));
+    color: var(--White);
+    font-family: FirstTimeWriting;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.card-container {
+    margin: auto;
+    padding: 50px;
+}
+
+.header {
+    margin-bottom: 0;
+}
+
+.name {
+    font-size: 2rem;
+    margin: 10px;
+    white-space: nowrap;
+}
+
+.icon {
+    height: 2rem;
+    vertical-align: middle;
+}
+
+.card-container__404 {
+    max-height: 600px;
+    background: linear-gradient(var(--Red), var(--Main));
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.icon {
+    filter: drop-shadow(2px 2px 3px var(--Black));
+}
+
+li {
+    text-transform: capitalize;
+    overflow-wrap: break-word;
+    text-wrap: wrap;
+    text-wrap: pretty;
+    hyphens: auto;
+    unicode-bidi: isolate;
+}
+
+h1, .message {
+    text-align: center;
+    margin: 3px;
+    font-weight: bold;
+    text-wrap: balance;
+    overflow-wrap: break-word;
+}
+
+h1 {
+    font-family: WakeUp;
+}
+
+.message {
+    font-size: 1.4rem;
+}
+
+@media screen and (min-width: 600px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    html {
+        font-size: 30px;
+    }
+}
