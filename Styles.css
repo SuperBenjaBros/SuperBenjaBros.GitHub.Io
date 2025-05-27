@@ -1,33 +1,7 @@
-/* Palet Color Vars */
-:root {
-    --White: #f0f8ff;
-    --Main: #f21b46;
-    --Red: #bf0046;
-    --Shadow: #16044d;
-    --Black: #001040
-}
-
 body {
     background: linear-gradient(var(--Shadow), var(--Black));
     color: var(--White);
     font-family: FirstTimeWriting;
     height: 100vh;
     margin: 0
-}
-
-h1, span {
-    text-wrap: balance;
-    overflow-wrap: break-word;
-}
-
-p {
-    text-transform: capitalize;
-    overflow: auto;
-    overflow-wrap: break-word;
-    margin-block: 1em;
-    margin-block: 1lh;
-    text-wrap: wrap;
-    text-wrap: pretty;
-    hyphens: auto;
-    unicode-bidi: isolate;
 }
