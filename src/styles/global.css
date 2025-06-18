@@ -1,0 +1,18 @@
+@import url("/fonts/Fonts.css");
+
+:root {
+    font-family: FirstTimeWriting;
+	color: var(--Text);
+	font-size: clamp(16px, 5vw, 20px);
+
+	text-transform: capitalize;
+
+	scroll-behavior: smooth;
+	scrollbar-width: thin;
+	scrollbar-color: var(--Main) var(--Shadow);
+}
+
+::selection {
+    color: var(--Black);
+    background-color: var(--Main);
+}
